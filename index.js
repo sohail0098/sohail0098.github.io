@@ -37,6 +37,7 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = '#'
 })
 
+document.getElementById("copyyear").innerHTML = new Date().getFullYear();
 document.getElementById("defaultOpen").click();
 
 function openProject(evt, projectName) {
